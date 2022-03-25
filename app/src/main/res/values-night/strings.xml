@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_nav">Home</string>
+    <string name="history_nav">History</string>
+    <string name="search_nav">Search</string>
+    <string name="settings_nav">Settings</string>
+    <string name="favourite_toast">Already, Added to Favourite</string>
+    <string name="favourite_menu">Add to Favourite</string>
+    <string name="mai_hint_keyword">search in\ </string>
+    <string name="favourite_tab">My Favourites</string>
+    <string name="search_tab">Search History</string>
+    <string name="browse_tab">Browse History</string>
+    <string name="clear_all_btn">clear all</string>
+    <string name="alert_title">DeleteAlert</string>
+    <string name="alert_message">Are You sure to Deleting ?</string>
+    <string name="alert_yes_btn">Yes</string>
+    <string name="alert_no_btn">No</string>
+    <string name="general_cat">GENERAL</string>
+    <string name="searchengine_txt">SearchEngine</string>
+    <string name="language_txt">Language</string>
+    <string name="fontsize_txt">FontSize</string>
+    <string name="appmode_txt">AppMode</string>
+    <string name="style_cat">STYLE</string>
+    <string name="our_app_cat">OUR APP</string>
+    <string name="about_app_txt">About App</string>
+    <string name="share_app_txt">Share App</string>
+    <string name="google_spin">google</string>
+    <string name="bing_spin">bing</string>
+    <string name="yahoo_spin">yahoo</string>
+    <string name="duckduckgo_spin">duckduckgo</string>
+    <string name="yandex_spin">yandex</string>
+    <string name="aol_spin">aol</string>
+    <string name="english_spin">English</string>
+    <string name="arabic_spin">Arabic</string>
+    <string name="search_web">search by\ </string>
+    <string name="WebSitesActionbar">WebSites</string>
+    <string name="AndroidAppsActionbar">AndroidApps</string>
+    <string name="HistoryActionbar">History</string>
+    <string name="SettingsActionbar">Settings</string>
+    <string name="WebSearchActionbar">WebSearch</string>
+    <string name="UniqueKeyApp">_app</string>
+</resources>

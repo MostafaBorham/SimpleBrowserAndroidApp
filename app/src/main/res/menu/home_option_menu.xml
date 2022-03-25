@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/websites"
+        android:title="@string/WebSitesActionbar"
+        android:icon="@drawable/most_visited_icon"/>
+    <item
+        android:id="@+id/android_apps"
+        android:title="@string/AndroidAppsActionbar"
+        android:icon="@drawable/settings_icon"/>
+</menu>

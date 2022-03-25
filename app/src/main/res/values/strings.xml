@@ -1,0 +1,578 @@
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:locale="en">
+    <string name="app_name">SimpleBrowser</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="WebsitesNames">
+        <item>@string/Masrawy</item>
+        <item>@string/SadaElbalad</item>
+        <item>@string/AlyoumAlsab3</item>
+        <item>@string/Alwatan</item>
+        <item>@string/ChatAraby</item>
+        <item>@string/Dndnha</item>
+        <item>@string/_1337X</item>
+        <item>@string/ThePirateBay</item>
+        <item>@string/Akoam</item>
+        <item>@string/Cima4film</item>
+        <item>@string/Cimaclub</item>
+        <item>@string/EgyBest</item>
+        <item>@string/Sam3na</item>
+        <item>@string/SoundCloud</item>
+        <item>@string/Na5mElarab</item>
+        <item>@string/Nogomi</item>
+        <item>@string/La7nAraby</item>
+        <item>@string/Na5matSongs</item>
+        <item>@string/AlmasryAlyom</item>
+        <item>@string/Alahram</item>
+        <item>@string/Veto</item>
+        <item>@string/A5barAlyom</item>
+        <item>@string/A5barakNet</item>
+        <item>@string/Al7akAldlal</item>
+        <item>@string/IMDB</item>
+        <item>@string/HelmAldrama</item>
+        <item>@string/Netflix</item>
+        <item>@string/Rotten</item>
+        <item>@string/Karton</item>
+        <item>@string/Mosar3aOnline</item>
+        <item>@string/Filgoal</item>
+        <item>@string/Yallashot</item>
+        <item>@string/FantasyPL</item>
+        <item>@string/El_Ahly</item>
+        <item>@string/El_Zamalk</item>
+        <item>@string/Goal.com</item>
+        <item>@string/EslamWeb</item>
+        <item>@string/TareekAlesalm</item>
+        <item>@string/EbnBaz</item>
+        <item>@string/SaidAlfoaad</item>
+        <item>@string/Mos7afAlectrony</item>
+        <item>@string/MoaqitAlslaa</item>
+        <item>@string/ChatAraby</item>
+        <item>@string/ChatKlamangy</item>
+        <item>@string/ArabChat</item>
+        <item>@string/ChatRandom</item>
+        <item>@string/Twitch.tv</item>
+        <item>@string/Spotify</item>
+        <item>@string/Facebook</item>
+        <item>@string/Twitter</item>
+        <item>@string/Instagram</item>
+        <item>@string/WhatsApp</item>
+        <item>@string/Blogger</item>
+        <item>@string/Tagged</item>
+        <item>@string/BankAlahly</item>
+        <item>@string/BankMisr</item>
+        <item>@string/CIB</item>
+        <item>@string/QNB</item>
+        <item>@string/HSBCEgypt</item>
+        <item>@string/Paypal</item>
+        <item>@string/Wikipedia</item>
+        <item>@string/Alm3any</item>
+        <item>@string/Mawdo3</item>
+        <item>@string/Esalny</item>
+        <item>@string/WikiHow</item>
+        <item>@string/HmsatYmania</item>
+        <item>@string/Wuzzuf</item>
+        <item>@string/Forsna</item>
+        <item>@string/Wazaef</item>
+        <item>@string/Bayt</item>
+        <item>@string/Almehan</item>
+        <item>@string/Wazayf4u</item>
+        <item>@string/Wattpad</item>
+        <item>@string/_3seerAlkotob</item>
+        <item>@string/Goodreads</item>
+        <item>@string/InternetArchive</item>
+        <item>@string/BooksPdf</item>
+        <item>@string/Wuxiaoworld</item>
+        <item>@string/McDonaldsEgypt</item>
+        <item>@string/Otlob</item>
+        <item>@string/KFCEgypt</item>
+        <item>@string/PizzaHutEgypt</item>
+        <item>@string/Cookpad</item>
+        <item>@string/MenuEgypt</item>
+        <item>@string/Vezeeta</item>
+        <item>@string/Shezlong</item>
+        <item>@string/WebTeb</item>
+        <item>@string/MayoClinic</item>
+        <item>@string/AlKonsolto</item>
+        <item>@string/Estshary</item>
+        <item>@string/Parents</item>
+        <item>@string/WhatToExpect</item>
+        <item>@string/MomJunction</item>
+        <item>@string/Pampers</item>
+        <item>@string/JOHNSONSbaby</item>
+        <item>@string/TheBump</item>
+        <item>@string/Mobizle</item>
+        <item>@string/Fast.com</item>
+        <item>@string/Qa3tAlmobilat</item>
+        <item>@string/Outlook.com</item>
+        <item>@string/Huawei</item>
+        <item>@string/Microsoft</item>
+        <item>@string/HM</item>
+        <item>@string/Zara</item>
+        <item>@string/Bershka</item>
+        <item>@string/Sephora</item>
+        <item>@string/Modanisa</item>
+        <item>@string/PullBear</item>
+        <item>@string/Egyptair</item>
+        <item>@string/GoogleMaps</item>
+        <item>@string/TripAdvisor</item>
+        <item>@string/Wego</item>
+        <item>@string/Holidaycheck</item>
+        <item>@string/Flyin</item>
+        <item>@string/Amazon</item>
+        <item>@string/Jumia</item>
+        <item>@string/Noun</item>
+        <item>@string/eBay</item>
+        <item>@string/MobileShop</item>
+        <item>@string/_2B</item>
+        <item>@string/Gmail</item>
+        <item>@string/GooglePlay</item>
+        <item>@string/GoogleDrive</item>
+        <item>@string/GoogleTranslate</item>
+        <item>@string/YahooMail</item>
+        <item>@string/Dropbox</item>
+        <item>@string/Shfaf</item>
+        <item>@string/Edarabia</item>
+        <item>@string/Edrak</item>
+        <item>@string/Malzamty</item>
+        <item>@string/Coursera</item>
+        <item>@string/Udemy</item>
+    </string-array>
+    <string-array name="AppsNames">
+        <item>@string/Truecaller</item>
+        <item>@string/Skype</item>
+        <item>@string/Messenger</item>
+        <item>@string/Facebook</item>
+        <item>@string/WhatsApp</item>
+        <item>@string/Instagram</item>
+        <item>@string/VideoDownloaderInShot</item>
+        <item>@string/AdvancedDownloadManager</item>
+        <item>@string/FacebookDownload</item>
+        <item>@string/DownloadAllFiles</item>
+        <item>@string/DownloadTwitterVideos</item>
+        <item>@string/UCBrowser</item>
+        <item>@string/Spotify</item>
+        <item>@string/GooglePlayMusic</item>
+        <item>@string/YouTubeMusic</item>
+        <item>@string/SamsungMusic</item>
+        <item>@string/SoundCloud</item>
+        <item>@string/Anghami</item>
+        <item>@string/AlmasryAlyom</item>
+        <item>@string/Alahram</item>
+        <item>@string/Veto</item>
+        <item>@string/BBCNews</item>
+        <item>@string/CNN</item>
+        <item>@string/Scooper</item>
+        <item>@string/IMDB</item>
+        <item>@string/Netflix</item>
+        <item>@string/Viki</item>
+        <item>@string/Rotten</item>
+        <item>@string/BabyTV</item>
+        <item>@string/Youtube</item>
+        <item>@string/Filgoal</item>
+        <item>@string/Yallashot</item>
+        <item>@string/FantasyPL</item>
+        <item>@string/Goal.com</item>
+        <item>@string/LFCTVGO</item>
+        <item>@string/RealmadridApp</item>
+        <item>@string/EslamWeb</item>
+        <item>@string/MuslimPro</item>
+        <item>@string/EgyptsDarAlIfta</item>
+        <item>@string/HollyQuran</item>
+        <item>@string/Salatuk</item>
+        <item>@string/Azhar.eg</item>
+        <item>@string/Steam</item>
+        <item>@string/Twitch.tv</item>
+        <item>@string/Dailymotion</item>
+        <item>@string/Oculus</item>
+        <item>@string/OSNStreaming</item>
+        <item>@string/RandoChat</item>
+        <item>@string/TikTok</item>
+        <item>@string/Telegram</item>
+        <item>@string/Snapchat</item>
+        <item>@string/LinkedIn</item>
+        <item>@string/Facebook</item>
+        <item>@string/WhatsApp</item>
+        <item>@string/BankAlahly</item>
+        <item>@string/BankMisr</item>
+        <item>@string/CIB</item>
+        <item>@string/QNB</item>
+        <item>@string/HSBCEgypt</item>
+        <item>@string/Paypal</item>
+        <item>@string/Wikipedia</item>
+        <item>@string/Citationsy</item>
+        <item>@string/Mawdo3</item>
+        <item>@string/Esalny</item>
+        <item>@string/WikiHow</item>
+        <item>@string/OxfordDictionary</item>
+        <item>@string/Waseet</item>
+        <item>@string/Forsna</item>
+        <item>@string/Upwork</item>
+        <item>@string/Bayt</item>
+        <item>@string/Glassdoor</item>
+        <item>@string/Tanqeeb</item>
+        <item>@string/Wattpad</item>
+        <item>@string/AmazonKindle</item>
+        <item>@string/Goodreads</item>
+        <item>@string/WaybackMachine</item>
+        <item>@string/Storytel</item>
+        <item>@string/Wuxiaoworld</item>
+        <item>@string/McDonaldsEgypt</item>
+        <item>@string/Otlob</item>
+        <item>@string/KFCEgypt</item>
+        <item>@string/PizzaHutEgypt</item>
+        <item>@string/Cookpad</item>
+        <item>@string/Talabat</item>
+        <item>@string/Vezeeta</item>
+        <item>@string/Shezlong</item>
+        <item>@string/MiFit</item>
+        <item>@string/MayoClinic</item>
+        <item>@string/AlKonsolto</item>
+        <item>@string/AdidasRunning</item>
+        <item>@string/BabyMonitor3G</item>
+        <item>@string/WhatToExpect</item>
+        <item>@string/BabySparks</item>
+        <item>@string/Pampers</item>
+        <item>@string/Kinedu</item>
+        <item>@string/TheBump</item>
+        <item>@string/MyWE</item>
+        <item>@string/Fast.com</item>
+        <item>@string/Speedtest</item>
+        <item>@string/MicrosoftOutlook</item>
+        <item>@string/Huawei</item>
+        <item>@string/Microsoft</item>
+        <item>@string/HM</item>
+        <item>@string/Zara</item>
+        <item>@string/Bershka</item>
+        <item>@string/TownTeam</item>
+        <item>@string/Modanisa</item>
+        <item>@string/PullBear</item>
+        <item>@string/Booking</item>
+        <item>@string/GoogleMaps</item>
+        <item>@string/TripAdvisor</item>
+        <item>@string/Wego</item>
+        <item>@string/Holidaycheck</item>
+        <item>@string/Flyin</item>
+        <item>@string/Amazon</item>
+        <item>@string/Jumia</item>
+        <item>@string/Noun</item>
+        <item>@string/eBay</item>
+        <item>@string/B.TECH</item>
+        <item>@string/Souq</item>
+        <item>@string/Gmail</item>
+        <item>@string/SHAREit</item>
+        <item>@string/GoogleDrive</item>
+        <item>@string/AdobeAcrobatReader</item>
+        <item>@string/VNVideo</item>
+        <item>@string/Dropbox</item>
+        <item>@string/UDictionary</item>
+        <item>@string/Cambly</item>
+        <item>@string/Edrak</item>
+        <item>@string/Duolingo</item>
+        <item>@string/Coursera</item>
+        <item>@string/Udemy</item>
+    </string-array>
+    <string-array name="CategoryWebsites">
+        <item>@string/Top</item>
+        <item>@string/Download</item>
+        <item>@string/Music</item>
+        <item>@string/News</item>
+        <item>@string/Video</item>
+        <item>@string/Sports</item>
+        <item>@string/Religion</item>
+        <item>@string/Entertainment</item>
+        <item>@string/Social</item>
+        <item>@string/Finance</item>
+        <item>@string/Reference</item>
+        <item>@string/Job</item>
+        <item>@string/Books</item>
+        <item>@string/Food</item>
+        <item>@string/Health</item>
+        <item>@string/Parenting</item>
+        <item>@string/Technology</item>
+        <item>@string/Fashion</item>
+        <item>@string/Travel</item>
+        <item>@string/Shopping</item>
+        <item>@string/Tools</item>
+        <item>@string/Education</item>
+    </string-array>
+    <string-array name="SearchEngineSpinner">
+        <item>@string/google_spin</item>
+        <item>@string/bing_spin</item>
+        <item>@string/yahoo_spin</item>
+        <item>@string/duckduckgo_spin</item>
+        <item>@string/yandex_spin</item>
+        <item>@string/aol_spin</item>
+    </string-array>
+    <string-array name="LanguageSpinner">
+        <item>@string/english_spin</item>
+        <item>@string/arabic_spin</item>
+    </string-array>
+    <string name="Masrawy">Masrawy</string>
+    <string name="SadaElbalad">SadaElbalad</string>
+    <string name="AlyoumAlsab3">AlyoumAlsab3</string>
+    <string name="Alwatan">Alwatan</string>
+    <string name="Chat_Araby">ChatAraby</string>
+    <string name="Dndnha">Dndnha</string>
+    <string name="_1337X">1337X</string>
+    <string name="ThePirateBay">ThePirateBay</string>
+    <string name="Akoam">Akoam</string>
+    <string name="Cima4film">Cima4film</string>
+    <string name="Cimaclub">Cimaclub</string>
+    <string name="EgyBest">EgyBest</string>
+    <string name="Sam3na">Sam3na</string>
+    <string name="Na5mElarab">Na5mElarab</string>
+    <string name="Nogomi">Nogomi</string>
+    <string name="La7nAraby">La7nAraby</string>
+    <string name="Na5matSongs">Na5matSongs</string>
+    <string name="AlmasryAlyom">AlmasryAlyom</string>
+    <string name="Alahram">Alahram</string>
+    <string name="Veto">Veto</string>
+    <string name="A5barAlyom">A5barAlyom</string>
+    <string name="A5barakNet">A5barakNet</string>
+    <string name="Al7akAldlal">Al7ak&amp;Aldlal</string>
+    <string name="IMDB">IMDB</string>
+    <string name="HelmAldrama">HelmAldrama</string>
+    <string name="Netflix">Netflix</string>
+    <string name="Rotten">Rotten</string>
+    <string name="Karton">Karton</string>
+    <string name="Mosar3aOnline">Mosar3aOnline</string>
+    <string name="Filgoal">Filgoal</string>
+    <string name="Yallashot">Yallashot</string>
+    <string name="FantasyPL">FantasyPL</string>
+    <string name="El_Ahly">El-Ahly</string>
+    <string name="El_Zamalk">El-Zamalk</string>
+    <string name="Goal.com">Goal.com</string>
+    <string name="EslamWeb">EslamWeb</string>
+    <string name="TareekAlesalm">TareekAlesalm</string>
+    <string name="EbnBaz">EbnBaz</string>
+    <string name="SaidAlfoaad">SaidAlfoaad</string>
+    <string name="Mos7afAlectrony">Mos7afAlectrony</string>
+    <string name="MoaqitAlslaa">MoaqitAlslaa</string>
+    <string name="ChatAraby">ChatAraby</string>
+    <string name="ChatKlamangy">ChatKlamangy</string>
+    <string name="ArabChat">ArabChat</string>
+    <string name="ChatRandom">ChatRandom</string>
+    <string name="Twitch.tv">Twitch.tv</string>
+    <string name="Twitter">Twitter</string>
+    <string name="Blogger">Blogger</string>
+    <string name="Tagged">Tagged</string>
+    <string name="Alm3any">Alm3any</string>
+    <string name="HmsatYmania">HmsatYmania</string>
+    <string name="Wuzzuf">Wuzzuf</string>
+    <string name="Wazaef">Wazaef</string>
+    <string name="Almehan">Almehan</string>
+    <string name="Wazayf4u">Wazayf4u</string>
+    <string name="_3seerAlkotob">3seerAlkotob</string>
+    <string name="InternetArchive">InternetArchive</string>
+    <string name="BooksPdf">BooksPdf</string>
+    <string name="McDonaldsEgypt">McDonald\'sEgypt</string>
+    <string name="MenuEgypt">MenuEgypt</string>
+    <string name="WebTeb">WebTeb</string>
+    <string name="Estshary">Estshary</string>
+    <string name="Parents">Parents</string>
+    <string name="MomJunction">MomJunction</string>
+    <string name="JOHNSONSbaby">JOHNSON\'Sbaby</string>
+    <string name="Mobizle">Mobizle</string>
+    <string name="Qa3tAlmobilat">Qa3tAlmobilat</string>
+    <string name="Outlook.com">Outlook.com</string>
+    <string name="HM">H&amp;M</string>
+    <string name="Sephora">Sephora</string>
+    <string name="PullBear">Pull&amp;Bear</string>
+    <string name="Egyptair">Egyptair</string>
+    <string name="MobileShop">MobileShop</string>
+    <string name="_2B">2B</string>
+    <string name="GooglePlay">GooglePlay</string>
+    <string name="GoogleTranslate">GoogleTranslate</string>
+    <string name="YahooMail">YahooMail</string>
+    <string name="Shfaf">Shfaf</string>
+    <string name="Edarabia">Edarabia</string>
+    <string name="Malzamty">Malzamty</string>
+    //////////////////////////////////////apps
+    <string name="Truecaller">Truecaller</string>
+    <string name="Skype">Skype</string>
+    <string name="Messenger">Messenger</string>
+    <string name="Facebook">Facebook</string>
+    <string name="Instagram">Instagram</string>
+    <string name="VideoDownloaderInShot">VideoDownloaderInShot</string>
+    <string name="AdvancedDownloadManager">AdvancedDownloadManager</string>
+    <string name="FacebookDownload">FacebookDownload</string>
+    <string name="DownloadAllFiles">DownloadAllFiles</string>
+    <string name="DownloadTwitterVideos">DownloadTwitterVideos</string>
+    <string name="UCBrowser">UCBrowser</string>
+    <string name="Spotify">Spotify</string>
+    <string name="GooglePlayMusic">GooglePlayMusic</string>
+    <string name="YouTubeMusic">YouTubeMusic</string>
+    <string name="SamsungMusic">SamsungMusic</string>
+    <string name="SoundCloud">SoundCloud</string>
+    <string name="Anghami">Anghami</string>
+    <string name="BBCNews">BBCNews</string>
+    <string name="CNN">CNN</string>
+    <string name="Scooper">Scooper</string>
+    <string name="Viki">Viki</string>
+    <string name="BabyTV">BabyTV</string>
+    <string name="Youtube">Youtube</string>
+    <string name="LFCTVGO">LFCTVGO</string>
+    <string name="RealmadridApp">RealmadridApp</string>
+    <string name="MuslimPro">MuslimPro</string>
+    <string name="EgyptsDarAlIfta">Egypt’sDarAl-Ifta</string>
+    <string name="HollyQuran">HollyQuran</string>
+    <string name="Salatuk">Salatuk</string>
+    <string name="Azhar.eg">Azhar.eg</string>
+    <string name="Steam">Steam</string>
+    <string name="Dailymotion">Dailymotion</string>
+    <string name="Oculus">Oculus</string>
+    <string name="OSNStreaming">OSNStreaming</string>
+    <string name="RandoChat">RandoChat</string>
+    <string name="TikTok">TikTok</string>
+    <string name="Telegram">Telegram</string>
+    <string name="Snapchat">Snapchat</string>
+    <string name="LinkedIn">LinkedIn</string>
+    <string name="WhatsApp">WhatsApp</string>
+    <string name="BankAlahly">BankAlahly</string>
+    <string name="BankMisr">BankMisr</string>
+    <string name="CIB">CIB</string>
+    <string name="QNB">QNB</string>
+    <string name="HSBCEgypt">HSBCEgypt</string>
+    <string name="Paypal">Paypal</string>
+    <string name="Wikipedia">Wikipedia</string>
+    <string name="Citationsy">Citationsy</string>
+    <string name="Mawdo3">Mawdo3</string>
+    <string name="Esalny">Esalny</string>
+    <string name="WikiHow">WikiHow</string>
+    <string name="OxfordDictionary">OxfordDictionary</string>
+    <string name="Waseet">Waseet</string>
+    <string name="Forsna">Forsna</string>
+    <string name="Upwork">Upwork</string>
+    <string name="Bayt">Bayt</string>
+    <string name="Glassdoor">Glassdoor</string>
+    <string name="Tanqeeb">Tanqeeb</string>
+    <string name="Wattpad">Wattpad</string>
+    <string name="AmazonKindle">AmazonKindle</string>
+    <string name="Goodreads">Goodreads</string>
+    <string name="WaybackMachine">WaybackMachine</string>
+    <string name="Storytel">Storytel</string>
+    <string name="Wuxiaoworld">Wuxiaoworld</string>
+    <string name="Otlob">Otlob</string>
+    <string name="KFCEgypt">KFCEgypt</string>
+    <string name="PizzaHutEgypt">PizzaHutEgypt</string>
+    <string name="Cookpad">Cookpad</string>
+    <string name="Talabat">Talabat</string>
+    <string name="Vezeeta">Vezeeta</string>
+    <string name="Shezlong">Shezlong</string>
+    <string name="MiFit">MiFit</string>
+    <string name="MayoClinic">MayoClinic</string>
+    <string name="AlKonsolto">Al-Konsolto</string>
+    <string name="AdidasRunning">AdidasRunning</string>
+    <string name="BabyMonitor3G">BabyMonitor3G</string>
+    <string name="WhatToExpect">WhatToExpect</string>
+    <string name="BabySparks">BabySparks</string>
+    <string name="Pampers">Pampers</string>
+    <string name="Kinedu">Kinedu</string>
+    <string name="TheBump">TheBump</string>
+    <string name="MyWE">MyWE</string>
+    <string name="Fast.com">Fast.com</string>
+    <string name="Speedtest">Speedtest</string>
+    <string name="MicrosoftOutlook">MicrosoftOutlook</string>
+    <string name="Huawei">Huawei</string>
+    <string name="Microsoft">Microsoft</string>
+    <string name="Zara">Zara</string>
+    <string name="Bershka">Bershka</string>
+    <string name="TownTeam">TownTeam</string>
+    <string name="Modanisa">Modanisa</string>
+    <string name="Booking">Booking</string>
+    <string name="GoogleMaps">GoogleMaps</string>
+    <string name="TripAdvisor">TripAdvisor</string>
+    <string name="Wego">Wego</string>
+    <string name="Holidaycheck">Holidaycheck</string>
+    <string name="Flyin">Flyin</string>
+    <string name="Amazon">Amazon</string>
+    <string name="Jumia">Jumia</string>
+    <string name="Noun">Noun</string>
+    <string name="eBay">eBay</string>
+    <string name="B.TECH">B.TECH</string>
+    <string name="Souq">Souq</string>
+    <string name="Gmail">Gmail</string>
+    <string name="SHAREit">SHAREit</string>
+    <string name="GoogleDrive">GoogleDrive</string>
+    <string name="AdobeAcrobatReader">AdobeAcrobatReader</string>
+    <string name="VNVideo">VNVideo</string>
+    <string name="Dropbox">Dropbox</string>
+    <string name="UDictionary">U-Dictionary</string>
+    <string name="Cambly">Cambly</string>
+    <string name="Edrak">Edrak</string>
+    <string name="Duolingo">Duolingo</string>
+    <string name="Coursera">Coursera</string>
+    <string name="Udemy">Udemy</string>
+    /////////////////////////////////////category
+    <string name="Top">Top</string>
+    <string name="Download">Download</string>
+    <string name="Music">Music</string>
+    <string name="News">News</string>
+    <string name="Video">Video</string>
+    <string name="Sports">Sports</string>
+    <string name="Religion">Religion</string>
+    <string name="Entertainment">Entertainment</string>
+    <string name="Social">Social</string>
+    <string name="Finance">Finance</string>
+    <string name="Reference">Reference</string>
+    <string name="Job">Job</string>
+    <string name="Books">Books</string>
+    <string name="Food">Food</string>
+    <string name="Health">Health</string>
+    <string name="Parenting">Parenting</string>
+    <string name="Technology">Technology</string>
+    <string name="Fashion">Fashion</string>
+    <string name="Travel">Travel</string>
+    <string name="Shopping">Shopping</string>
+    <string name="Tools">Tools</string>
+    <string name="Education">Education</string>
+    <string name="Site_App" translatable="false">site</string>
+    <string name="home_nav">Home</string>
+    <string name="history_nav">History</string>
+    <string name="search_nav">Search</string>
+    <string name="settings_nav">Settings</string>
+    <string name="favourite_toast">Already, Added to Favourite</string>
+    <string name="favourite_menu">Add to Favourite</string>
+    <string name="mai_hint_keyword">search in\ </string>
+    <string name="favourite_tab">My Favourites</string>
+    <string name="search_tab">Search History</string>
+    <string name="browse_tab">Browse History</string>
+    <string name="clear_all_btn">clear all</string>
+    <string name="alert_title">DeleteAlert</string>
+    <string name="alert_message">Are You sure to Deleting ?</string>
+    <string name="alert_yes_btn">Yes</string>
+    <string name="alert_no_btn">No</string>
+    <string name="general_cat">GENERAL</string>
+    <string name="searchengine_txt">SearchEngine</string>
+    <string name="language_txt">Language</string>
+    <string name="fontsize_txt">FontSize</string>
+    <string name="appmode_txt">AppMode</string>
+    <string name="style_cat">STYLE</string>
+    <string name="our_app_cat">OUR APP</string>
+    <string name="about_app_txt">About App</string>
+    <string name="share_app_txt">Share App</string>
+    <string name="google_spin">google</string>
+    <string name="bing_spin">bing</string>
+    <string name="yahoo_spin">yahoo</string>
+    <string name="duckduckgo_spin">duckduckgo</string>
+    <string name="yandex_spin">yandex</string>
+    <string name="aol_spin">aol</string>
+    <string name="english_spin">English</string>
+    <string name="arabic_spin">Arabic</string>
+    <string name="search_web">search by\ </string>
+    <string name="WebSitesActionbar">WebSites</string>
+    <string name="AndroidAppsActionbar">AndroidApps</string>
+    <string name="HistoryActionbar">History</string>
+    <string name="SettingsActionbar">Settings</string>
+    <string name="WebSearchActionbar">WebSearch</string>
+    <string name="UniqueKeyApp">_app</string>
+    <string name="about_app_detail">SimpleBrowser App is simple browser like his name , User can use it for do some simple tasks like (Browsing by either ready sites links in HomeTabNavigation or by WebPage in SearchTabNavigation , Save all your activities on app in three tabs in History section : BrowsingHistory that save all browsing activities and SearchHistory that save all search web history in app and MyFavourite that save your sites and apps favourite and all of them be displayed in History Section . also you be able to change configurations on app like (Language (English or Arabic), App Mode(Light or Dark), Font Size to all apps and change search engine (google,bing,yahoo,etc...) and finally we thank you if share our app on social media by press on ShareApp link in last page ... enjoy in our app and good luck :)</string>
+    <string name="FontSizeChangedToSmall">FontSize changed to Small</string>
+    <string name="FontSizeChangedToLarge">FontSize changed to Large</string>
+    <string name="FontSizeChangedToNormal">FontSize changed to Normal</string>
+    <string name="notification_name">History Space Alert</string>
+    <string name="browsehistory_notification_desc">BrowseHistory Alert</string>
+    <string name="searchhistory_notification_desc">SearchHistory Alert</string>
+    <string name="notification_content">remove some data for best performance</string>
+</resources>

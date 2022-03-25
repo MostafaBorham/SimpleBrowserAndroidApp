@@ -1,0 +1,2111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".HomeBrowsingFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/SitesOrAppsRoot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingStart="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/star_top_icon"
+                    android:text="@string/Top"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="2dp">
+
+                    <TextView
+                        android:id="@+id/top00"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.truecaller,https://www.masrawy.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.skype.raider,https://www.elbalad.news/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="2dp">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.facebook.orca,https://www.youm7.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.facebook.katana,https://www.elwatannews.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.whatsapp,https://www.arabic.chat/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.instagram.android,https://www.dndnha.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_cloud_download_24"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/Download"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="5dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=video.downloader.videodownloader,https://www.1337x.tw/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.dv.adm,https://thepiratebay.cx/en3/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_marginBottom="2dp"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=facebook.video.downloader.savefrom.fb,https://akwam.in/one"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.hwkrbbt.downloadall,https://cima4film.buzz:2096/m4/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=tweeter.gif.twittervideodownloader,https://www.cima-club.cc:2096/category/%D8%A7%D9%81%D9%84%D8%A7%D9%85-%D8%A7%D8%AC%D9%86%D8%A8%D9%89-aflam-onilne3"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.UCMobile.intl,https://grey.egybest.network/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_music_video_24"
+                    android:text="@string/Music"
+                    android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.spotify.music,https://www.sm3na.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=musicplayer.hdvideoplayer.backgroundmusic,https://soundcloud.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.google.android.apps.youtube.music,http://melody4arab.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.sec.android.app.music,https://www.albumaty.com/nogomistars.html"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.soundcloud.android,https://www.arabmelody.net/cat/egyptian_songs"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.anghami,https://songs.nghmat.com/cat/2-egypt.html"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:drawableLeft="@drawable/news_icon"
+                    android:text="@string/News"                android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=net.sarmady.almasryalyoum,https://www.almasryalyoum.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=io.cordova.AlAhram,https://www.ahram.org.eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.smartly.vito,https://www.vetogate.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=bbc.mobile.news.ww,https://akhbarelyom.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.cnn.mobile.android.phone,https://akhbarak.net/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.hatsune.eagleee,https://www.christian-dogma.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/video_icon"
+                    android:text="@string/Video"                 android:drawablePadding="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.imdb.mobile,https://www.imdb.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.netflix.mediaclient,https://www.7lm.live/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.viki.android,https://www.netflix.com/eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.myrottentomatoes.app,https://www.rottentomatoes.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.applicaster.babytv.vod,https://www.cartoonnetworkarabic.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.google.android.youtube,https://mosar3a.1talk.net/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/sport_icon"
+                    android:text="@string/Sports"                  android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.sarmady.filgoal,https://www.filgoal.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=yallashoot.shoot.yalla.com.yallashoot.newapp,https://online.yalla-shoot-new.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.pl.premierleague,https://fantasy.premierleague.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.freerange360.mpp.GOAL,https://www.alahlyegypt.com/ar"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.liverpoolfc.lfctvgoapp,http://el-zamalek.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.mcentric.mcclient.MyMadrid,https://www.goal.com/en-us"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/religion_icon"
+                    android:text="@string/Religion"                    android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.islamweb.eba,https://www.islamweb.net/ar/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.bitsmedia.android.muslimpro,https://ar.islamway.net/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.dareleftaa,https://binbaz.org.sa/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.simppro.quran.offline,http://saaid.net/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.masarat.salati,http://www.e-quran.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=eg.azhar.app2,https://timesprayer.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/entertainment_icon"
+                    android:text="@string/Entertainment"
+                    android:drawablePadding="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.valvesoftware.android.steam.community,https://www.arabic.chat/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=tv.twitch.android.app,https://www.kalamngychat.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.dailymotion.dailymotion,https://www.arabchat.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.oculus.twilight,https://chatrandom.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.osn.go,https://www.twitch.tv/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.random.chat.app,https://www.spotify.com/us/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/social_icon"
+                    android:text="@string/Social"                  android:drawablePadding="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.zhiliaoapp.musically,https://www.facebook.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=org.telegram.messenger,https://twitter.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.snapchat.android,https://www.instagram.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.linkedin.android,https://web.whatsapp.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.facebook.katana,https://www.blogger.com/about/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.whatsapp,https://www.tagged.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_baseline_monetization_on_24"
+                    android:text="@string/Finance"                   android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="5dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.ofss.fcdb.mobile.android.phone.kernel.launcher.qa,https://www.nbe.com.eg/NBE/E/#/EN/Home"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.BanqueMisr.MobileBanking,https://www.banquemisr.com/ar"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.CIB.Digital.MB,https://www.cibeg.com"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=eg.com.qnb.eazymobile,https://www.qnbalahli.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.htsu.hsbcpersonalbanking,https://www.hsbc.com.eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.paypal.android.p2pmobile,https://www.paypal.com/eg/home"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/refrence_icon"
+                    android:text="@string/Reference"
+                    android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=org.wikipedia,https://www.wikipedia.org/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.citationsy.citationsy,https://www.almaany.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=mawdoo3.com,https://mawdoo3.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.Es2alny,http://esalny.net/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.wikihow.wikihowapp,https://ar.wikihow.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.mobisystems.msdict.embedded.wireless.oxford.dictionaryofenglish,https://vb.hmsaatyemen.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/job_icon"
+                    android:text="@string/Job"               android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.awi.waseet,https://wuzzuf.net/jobs/egypt"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.forasnaemployers,https://forasna.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.upwork.android.apps.main,https://www.wzayef.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.bayt,https://www.bayt.com/ar/egypt/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.glassdoor.app,https://www.almehan.com.eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=tanqeeb.com.app,https://wazayf4u.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/books_icon"
+                    android:text="@string/Books"                 android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=wp.wattpad,https://www.wattpad.com/?locale=ar_EG"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.amazon.kindle,https://www.aseeralkotb.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.goodreads,https://www.goodreads.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.archive.waybackmachine,https://archive.org/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=grit.storytel.app,https://www.kutubpdfbook.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.wuxiaworld.mobile,https://www.wuxiaworld.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/food_icon"
+                    android:text="@string/Food"                android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.mcdonalds.mobileapp,https://www.mcdonalds.eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=dev.amin.otluopo,https://www.talabat.com/egypt"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.kfc.egypt,https://www.egypt.kfc.me/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.ph.egypt,https://www.egypt.pizzahut.me/en/home"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.mufumbo.android.recipe.search,https://cookpad.com/eg"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.talabat,https://menuegypt.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/health_icon"
+                    android:text="@string/Health"                  android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.ionicframework.vezeetapatientsmobile694843,https://www.vezeeta.com/?utm_source=a2hs"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.shezlong.client,https://www.shezlong.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.xiaomi.hm.health,https://www.webteb.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.mayoclinic.patient,https://www.mayoclinic.org/ar"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.konsolto.patient,https://konsolto.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.runtastic.android,https://esteshary.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/parenting_icon"
+                    android:text="@string/Parenting"
+                    android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.tappytaps.android.babymonitor3g,https://www.parents.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.wte.view,https://www.whattoexpect.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.babysparks.babysparks,https://www.momjunction.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.fatersmart.nuovavita,https://www.pampers.com/en-us"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.kinedu.appkinedu,https://www.johnsonsbaby.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=uk.co.disciplemedia.bumpbabyyou,https://www.thebump.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/technology_icon"
+                    android:text="@string/Technology"
+                    android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.ucare.we,https://mobizil.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.netflix.Speedtest,https://fast.com/ar/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=org.zwanoo.android.speedtest,https://www.mobihall.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.microsoft.office.outlook,https://outlook.live.com/owa/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.huawei.support.mobile,https://consumer.huawei.com/eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.microsoft.events,https://www.microsoft.com/ar-eg"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/fashoin_icon"
+                    android:text="@string/Fashion"                   android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.hm.mena,https://www.hm.com/entrance.ahtml?orguri=%2F"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.inditex.zara,https://www.zara.com/eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.inditex.ecommerce.bershka,https://www.bershka.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=co.shopney.townteam,https://www.sephora.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.modanisa,https://www.modanisa.com/ar"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.inditex.pullandbear,https://www.pullandbear.com/eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/travel_icon"
+                    android:text="@string/Travel"                  android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.booking,https://www.egyptair.com/en/pages/homepage.aspx"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.google.android.apps.maps,https://www.google.com/maps"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.tripadvisor.tripadvisor,https://www.tripadvisor.com.eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.wego.android,https://eg.wego.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.holidaycheck,https://www.holidaycheck.de/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.flyin.bookings,https://eg.flyin.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/shopping_icon"
+                    android:text="@string/Shopping"                    android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.amazon.mShop.android.shopping,https://www.amazon.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.jumia.android,https://www.jumia.com.eg/ar/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.noon.buyerapp,https://www.noon.com/egypt-ar/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.ebay.mobile,https://www.ebay.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.btechapp,https://www.mobileshop.com.eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.souq.app,https://2b.com.eg/ar/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/service_icon"
+                    android:text="@string/Tools"                 android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.google.android.gm,https://mail.google.com/mail/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.lenovo.anyshare.gps,https://play.google.com/store"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.google.android.apps.docs,https://drive.google.com/drive/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.adobe.reader,https://translate.google.com.eg/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.frontrow.vlog,https://maktoob.yahoo.com/?p=us"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.dropbox.android,https://www.dropbox.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/education_icon"
+                    android:text="@string/Education"
+                    android:layout_marginBottom="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center_vertical"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.youdao.hindict,https://shafaff.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.cambly.cambly,https://www.edarabia.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=org.edraak.mobile,https://www.edraak.org/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.duolingo,https://www.mlzamty.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=org.coursera.android,https://www.coursera.org/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:tag="market://details?id=com.udemy.android,https://www.udemy.com/"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="5dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:maxLines="1"
+                        android:background="?attr/selectableItemBackground"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
